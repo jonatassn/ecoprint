@@ -1,9 +1,9 @@
-html body {
+html, body , .container{
     height: 100%;
     width: 100%;
-    margin: 0;
-	padding: 0;
-	border: 0;
+     margin: 0;
+	/* padding: 0;
+	border: 0; */
 }
 
 .container {
@@ -20,16 +20,34 @@ html body {
 
 .menu-lateral {
     grid-column: 1/2;
-    grid-row: 1/1;
+    grid-row: 1/2;
     background-color: rgb(48, 179, 107);
 }
 
 .conteudo {
-    grid-column: 2/2;
-    grid-row: 1/1;
+    /* border: 1px solid #000; */
+        grid-column: 2/3;
+    grid-row: 1/2;
     background-color: rgb(211, 211, 211);
+    display: grid;
+    grid-template-rows: 15% auto 15%;
+    
 }
 
+.cabecalho {
+    border: 1px solid #000;
+}
+
+.conteudo-geral {
+    border: 1px solid #000;
+}
+
+.rodape {
+    border: 1px solid #000;
+}
+
+
+
 .titulo > h1 {
-    color: blue;
+    color: rgb(128, 128, 161);
 }

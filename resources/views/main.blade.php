@@ -43,7 +43,6 @@
                             ipsam quis quasi maxime nisi laboriosam exercitationem 
                             distinctio dolorum blanditiis laudantium, quibusdam, iusto vel!</p>
                     </div>
-                    <div class="separador"></div>
                     <div class="projeto">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                             Autem expedita consectetur cumque ex rerum vitae tenetur 
@@ -54,10 +53,11 @@
                             ipsam quis quasi maxime nisi laboriosam exercitationem 
                             distinctio dolorum blanditiis laudantium, quibusdam, iusto vel!</p>
                     </div>
-                    <div class="rodape">
-                        <h3>Ecoprint &copy; 2020</h3>
-                        <h3>Design por <a href="https://github.com/jonatassn">Jonatassn</h3>
-                    </div>
+                    
+                </div>
+                <div class="rodape">
+                    <h3>Ecoprint &copy; 2020</h3>
+                    <h3>Design por <a href="https://github.com/jonatassn">Jonatassn</a></h3>
                 </div>
             </div>
         </div>
